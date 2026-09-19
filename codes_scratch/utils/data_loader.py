@@ -45,7 +45,7 @@ def load_toy_dataset(
     if not os.path.exists(csv_path):
         json_path = os.path.join(project_root, "data", "toy_dataset.json")
         if os.path.exists(json_path):
-            from data.convert_json_to_csv import convert_json_to_csv
+            from codes_scratch.data.convert_json_to_csv import convert_json_to_csv
             convert_json_to_csv(json_path, csv_path)
         else:
             raise FileNotFoundError(f"Neither toy_dataset.csv nor toy_dataset.json found in {os.path.dirname(csv_path)}")

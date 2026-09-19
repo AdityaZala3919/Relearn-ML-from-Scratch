@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ML / DL Learning Roadmap - A personal knowledge roadmap and practical implementation tracker for Machine Learning and Deep Learning." />
+    <title>ML / DL Learning Roadmap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/variables.css" />
+    <link rel="stylesheet" href="./src/styles/layout.css" />
+    <link rel="stylesheet" href="./src/styles/components.css" />
+    <link rel="stylesheet" href="./src/styles/views.css" />
+  </head>
+  <body>
+    <div id="app" class="app-layout">
+      <!-- Global Top Header -->
+      <header id="app-header" class="app-header"></header>
+
+      <div class="app-body">
+        <!-- Sidebar Navigation -->
+        <aside id="app-sidebar" class="app-sidebar"></aside>
+
+        <!-- Main Viewport Container -->
+        <main id="main-content" class="main-content" role="main"></main>
+      </div>
+
+      <!-- Slide-over Topic Detail Drawer -->
+      <div id="topic-drawer-container"></div>
+
+      <!-- Global Modal Container -->
+      <div id="modal-container"></div>
+
+      <!-- Global Search Command Palette -->
+      <div id="search-modal-container"></div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

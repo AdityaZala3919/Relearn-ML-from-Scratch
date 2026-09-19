@@ -20,8 +20,8 @@ from sklearn.tree import DecisionTreeClassifier as SklearnDecisionTree
 
 # Add project root to sys.path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from utils.data_loader import load_toy_dataset
-from utils.metrics import (
+from codes_scratch.utils.data_loader import load_toy_dataset
+from codes_scratch.utils.metrics import (
     print_section,
     print_step,
     calculate_classification_metrics,
